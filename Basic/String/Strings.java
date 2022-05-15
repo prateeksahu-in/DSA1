@@ -10,5 +10,8 @@ class Strings {
         
         name = sc.nextLine();
         System.out.print(name);
+	
+        System.out.print(name.length());
+        System.out.print(name.charAt(0));
     }
 }
